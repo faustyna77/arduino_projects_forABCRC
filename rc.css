@@ -1,0 +1,175 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+
+html{
+    font-size: 65%;
+    scroll-behavior: smooth;
+    background-color:#000
+
+}
+
+body{
+    font-family: 'EB Garamond', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+
+
+background-color: #24262533;
+}
+
+
+.navbar-toggler
+{
+    padding: 10px;
+}
+.offcanvas-title
+{
+    text-transform: uppercase;
+}
+
+.navbar-brand
+{
+    
+    text-transform: uppercase;
+    font-size: 25px;
+    
+
+}
+.nav-item
+{
+    color: orange;
+}
+.min
+{
+    font-size: 2.5rem;
+    color: rgb(47, 74, 213);
+}
+.plus
+{
+    font-size: 2.3rem;
+    color: rgb(228, 25, 25);
+}
+.carousel-item
+{
+    height:500px;
+}
+.home .welcome-text
+{
+    color:white;
+}
+.contact .card-text
+{
+ font-size: 15px;
+ text-transform: lowercase;
+}
+.projects
+{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+  
+    margin-top: 2.3rem;
+    flex-wrap: wrap;
+}
+.projects .hello-text
+{
+    display: flex;
+    flex-direction: column;
+}
+.card
+{
+    height:30rem;
+  
+}
+
+.join
+{
+   margin:12rem;
+   
+}
+
+.join p{
+    text-transform: uppercase;
+    color: orange;
+}
+
+.collapsed,.accordion-item,.accordion-header,.collapse
+{
+  
+    
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-img
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 25rem;
+    width: 25rem;
+ 
+}
+.contact p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    color: orange;
+}
+p{
+    text-transform: lowercase;
+    font-size: 15px;
+    color:black;
+}
+.card-text{
+    text-transform: lowercase;
+    font-size: 15px;
+    color:black;
+}
+.btn-primary
+{
+    
+}
+.btn{
+   
+}
+.cardimgTwo
+{
+    background-image: url('img/arduino-6207591_640.jpg');
+    background-size: cover;
+  
+    height:40vh;
+    background-color: rgba(8, 7, 7, 0.9);
+}
+div{
+    text-transform: lowercase;
+}
+.fa-1xl
+{
+    color:white;
+}
+li,ul,a{
+    text-decoration: none;
+    color:black;
+}
+.accordion-body
+{
+    color:rgb(7, 7, 7);
+    text-transform: lowercase;
+}
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+    height: 10rem;
+}
